@@ -53,3 +53,54 @@
 .section > .container > .row > .col-md-12 > .section-title > .section-nav > ul > li:hover > a:after{
     width: 100%;
 }
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane{
+    position: relative;
+    padding-bottom: 60px;
+}
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0;
+}
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 2.5%;
+    height: 100%;
+    border: 1px solid #e4e7ed;
+    transition: all 0.2s;
+}
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product:hover{
+    border: 1px solid #D10024;
+}
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product > .product-img{
+    position: relative;
+}
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product > .product-img > img{
+    width: 100%;
+    vertical-align: middle;
+}
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product > .product-img > .product-label{
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+/* product-label */
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product > .product-img > .product-label > span{
+    border: 2px solid #D10024;
+    padding: 2px 10px;
+    font-size: 12px;
+}
+/* sale */
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product > .product-img > .product-label > span.sale{
+    background-color: white;
+    color: #D10024;
+}
+/* new */
+.section > .container > .row > .col-md-12 > .row > .products-tabs > .tab-pane > .products-slick > .product > .product-img > .product-label > span.new{
+    background-color: #D10024;
+    color: white;
+}
